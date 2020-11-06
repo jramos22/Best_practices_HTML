@@ -1,5 +1,58 @@
-$heading-color: #00f;
-
-h1 {
-  color: $heading-color;
+#wrapper{
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: grey;
 }
+#sub-wrapper{
+  max-width: 800px;
+  margin: 0 auto;
+}
+#nav{
+  padding-top: 10px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#nav ul {
+  list-style: none;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  li{
+    float: left;
+    padding: 10px;
+    a{
+      text-decoration: none;
+    }
+  }
+}
+
+.contenedor{
+  background-color: white;
+  text-align: center;
+}
+.contenedor p{
+  padding-top: 20px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+.contenedor{
+  margin-bottom: 20px;
+}
+.contenedor .more{
+  padding-bottom: 40px;
+}
+.contenedor .more p{
+  padding: 0px;
+}
+.contenedor .more a{
+  text-decoration: none;
+  background-color: green;
+  color: white;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
