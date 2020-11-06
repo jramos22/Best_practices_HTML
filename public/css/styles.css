@@ -62,6 +62,27 @@
   text-decoration: none;
   color: white; }
 
+.contenedor-img {
+  float: left; }
+
+.imagen {
+  width: 300px;
+  margin: 0px;
+  padding: 0px; }
+
+.informacion {
+  width: 300px;
+  font-size: 15px;
+  text-align: right;
+  background-color: #0071bd;
+  float: left; }
+
+.informacion h4 {
+  padding: 55px 45px 0px 45px; }
+
+.informacion p {
+  padding: 0px 45px 55px 45px; }
+
 .clearfix::after {
   content: "";
   clear: both;
