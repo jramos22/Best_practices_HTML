@@ -21,7 +21,11 @@
     float: left;
     padding: 10px; }
     #nav ul li a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #9c9c9c; }
+
+a {
+  color: #3fabeb; }
 
 .contenedor {
   background-color: white;
@@ -33,8 +37,8 @@
 
 .contenedor p {
   padding-top: 20px;
-  padding-right: 100px;
-  padding-left: 100px; }
+  padding-right: 80px;
+  padding-left: 80px; }
 
 .contenedor #more1 {
   padding-bottom: 40px;
@@ -52,33 +56,55 @@
   padding-bottom: 71px;
   padding-top: 36px; }
 
+#more5 {
+  padding-bottom: 71px;
+  padding-top: 36px;
+  background-color: white;
+  text-align: center;
+  margin-top: -20px; }
+
 .contenedor #more1 p {
   font-size: 12px;
   margin-left: 210px;
   margin-right: 210px;
   padding: 17px 50px 17px 50px;
-  background-color: green; }
+  background-color: #7bb84e; }
 
 .contenedor #more2 p {
   font-size: 12px;
   margin-left: 210px;
   margin-right: 210px;
   padding: 17px 50px 17px 50px;
-  background-color: orange; }
+  background-color: #f5ba1b; }
 
 .contenedor #more3 p {
   font-size: 12px;
   margin-left: 210px;
   margin-right: 210px;
   padding: 17px 50px 17px 50px;
-  background-color: lightblue; }
+  background-color: #3fabeb; }
 
-#more4 p {
+#galleria #more4 p {
   font-size: 12px;
   margin-left: 210px;
   margin-right: 210px;
   padding: 17px 50px 17px 50px;
-  background-color: lightblue; }
+  background-color: #f9f9f9; }
+
+#more5 h2 {
+  background-color: #e02d74;
+  font-size: 17px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 17px 0px 17px 0px; }
+
+#more1 a, #more2 a, #more3 a, #more5 h2 a {
+  text-decoration: none;
+  color: white; }
+
+#more4 a {
+  text-decoration: none;
+  color: #292b33; }
 
 .contenedor .more a {
   text-decoration: none;
@@ -190,6 +216,30 @@
 #galleimg {
   padding: 0px 51px 0px 51px;
   color: red; }
+
+#footer {
+  color: #797c82;
+  font-size: 13px; }
+
+#footer p {
+  padding-top: 29px; }
+
+#footer #reserved {
+  float: left;
+  width: 480px; }
+
+#footer #redes {
+  width: 100px;
+  padding-top: 40px;
+  float: left;
+  position: relative; }
+
+#footer #redes a {
+  position: absolute;
+  left: 0px; }
+
+#footer a {
+  color: #797c82; }
 
 .clearfix::after {
   content: "";
