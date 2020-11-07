@@ -43,19 +43,34 @@
   padding-left: 100px;
 }
 .contenedor #more1 {
-  @include more;
+  @include more($bottom:40px, $top:10px);
 }
 .contenedor #more2 {
-  @include more;
+  @include more($bottom:40px, $top:10px);
+}
+.contenedor #more3 {
+  @include more($bottom:71px, $top:36px);
+}
+#more4 {
+  @include more($bottom:71px, $top:36px);
 }
 .contenedor #more1 p{
-  @include morep;
+  @include morep($padding:17px 50px 17px 50px);
   background-color: green;
 }
 .contenedor #more2 p{
-  @include morep;
+  @include morep($padding:17px 50px 17px 50px);
   background-color: orange;
 }
+.contenedor #more3 p{
+  @include morep($padding:17px 50px 17px 50px);
+  background-color: lightblue;
+}
+#more4 p{
+  @include morep($padding:17px 50px 17px 50px);
+  background-color: lightblue;
+}
+
 .contenedor .more a{
   text-decoration: none;
   color: white;
@@ -63,25 +78,90 @@
 .contenedor-img{
   float: left;
 }
-.imagen{
-  width: 300px;
-  margin: 0px;
-  padding: 0px;
+#informacion1{
+  @include informacion($aling:right);
 }
-.informacion{
-  width: 300px;
-  font-size: 15px;
-  text-align: right;
+#informacion2{
+  @include informacion($aling:left);
+}
+#informacion3{
+  @include informacion($aling:right);
+}
+#informacion4{
+  @include informacion($aling:left);
+}
+#img1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#img2{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+#img3{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#img4{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.azul{
   background-color: #0071bd;
-  float: left;
 }
-.informacion h4{
-  padding: 55px 45px 0px 45px;
+.celeste{
+  background-color: #a3d3f3;
 }
-.informacion p{
-  padding: 0px 45px 55px 45px;
+.celesteoscuro{
+  background-color: #75b3dd;
 }
-
+.negro{
+  background-color: #333c4d;
+}
+#informacion1 h4{
+  @include h4s($tops: 255px 45px 0px 45px);
+}
+#informacion1 p{
+  @include ps($bottom: 0px 45px 55px 45px);
+}
+#informacion2 h4{
+  @include h4s($tops: 55px 45px 0px 45px);
+}
+#informacion2 p{
+  @include ps($bottom:0px 45px 255px 45px);
+}
+#informacion3 h4{
+  @include h4s($tops: 255px 45px 0px 45px);
+}
+#informacion3 p{
+  @include ps($bottom:0px 45px 55px 45px);
+}
+#informacion4 h4{
+  @include h4s($tops:55px 45px 0px 45px);
+}
+#informacion4 p{
+  @include ps($bottom:0px 45px 255px 45px);
+}
+#galleria{
+  background-color:#292b33;
+  text-align: center;
+}
+#galleria h2{
+  color: white;
+  padding-top: 68px;
+}
+#galleria p{
+  color: #828282;
+  padding: 37px 51px 27px 51px;
+}
+#galleimg{
+  padding: 0px 51px 0px 51px;
+  color: red;
+}
 .clearfix::after{
   content: "";
   clear: both;

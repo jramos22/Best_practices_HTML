@@ -44,19 +44,41 @@
   padding-bottom: 40px;
   padding-top: 10px; }
 
+.contenedor #more3 {
+  padding-bottom: 71px;
+  padding-top: 36px; }
+
+#more4 {
+  padding-bottom: 71px;
+  padding-top: 36px; }
+
 .contenedor #more1 p {
   font-size: 12px;
-  margin-left: 220px;
-  margin-right: 220px;
-  padding: 5px 20px 5px 20px;
+  margin-left: 210px;
+  margin-right: 210px;
+  padding: 17px 50px 17px 50px;
   background-color: green; }
 
 .contenedor #more2 p {
   font-size: 12px;
-  margin-left: 220px;
-  margin-right: 220px;
-  padding: 5px 20px 5px 20px;
+  margin-left: 210px;
+  margin-right: 210px;
+  padding: 17px 50px 17px 50px;
   background-color: orange; }
+
+.contenedor #more3 p {
+  font-size: 12px;
+  margin-left: 210px;
+  margin-right: 210px;
+  padding: 17px 50px 17px 50px;
+  background-color: lightblue; }
+
+#more4 p {
+  font-size: 12px;
+  margin-left: 210px;
+  margin-right: 210px;
+  padding: 17px 50px 17px 50px;
+  background-color: lightblue; }
 
 .contenedor .more a {
   text-decoration: none;
@@ -65,23 +87,109 @@
 .contenedor-img {
   float: left; }
 
-.imagen {
-  width: 300px;
-  margin: 0px;
-  padding: 0px; }
-
-.informacion {
+#informacion1 {
+  position: relative;
   width: 300px;
   font-size: 15px;
   text-align: right;
-  background-color: #0071bd;
-  float: left; }
+  float: left;
+  color: white; }
 
-.informacion h4 {
+#informacion2 {
+  position: relative;
+  width: 300px;
+  font-size: 15px;
+  text-align: left;
+  float: left;
+  color: white; }
+
+#informacion3 {
+  position: relative;
+  width: 300px;
+  font-size: 15px;
+  text-align: right;
+  float: left;
+  color: white; }
+
+#informacion4 {
+  position: relative;
+  width: 300px;
+  font-size: 15px;
+  text-align: left;
+  float: left;
+  color: white; }
+
+#img1 {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#img2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+#img3 {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#img4 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.azul {
+  background-color: #0071bd; }
+
+.celeste {
+  background-color: #a3d3f3; }
+
+.celesteoscuro {
+  background-color: #75b3dd; }
+
+.negro {
+  background-color: #333c4d; }
+
+#informacion1 h4 {
+  padding: 255px 45px 0px 45px; }
+
+#informacion1 p {
+  padding: 0px 45px 55px 45px; }
+
+#informacion2 h4 {
   padding: 55px 45px 0px 45px; }
 
-.informacion p {
+#informacion2 p {
+  padding: 0px 45px 255px 45px; }
+
+#informacion3 h4 {
+  padding: 255px 45px 0px 45px; }
+
+#informacion3 p {
   padding: 0px 45px 55px 45px; }
+
+#informacion4 h4 {
+  padding: 55px 45px 0px 45px; }
+
+#informacion4 p {
+  padding: 0px 45px 255px 45px; }
+
+#galleria {
+  background-color: #292b33;
+  text-align: center; }
+
+#galleria h2 {
+  color: white;
+  padding-top: 68px; }
+
+#galleria p {
+  color: #828282;
+  padding: 37px 51px 27px 51px; }
+
+#galleimg {
+  padding: 0px 51px 0px 51px;
+  color: red; }
 
 .clearfix::after {
   content: "";

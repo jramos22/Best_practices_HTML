@@ -1,10 +1,24 @@
-@mixin more {
-  padding-bottom: 40px;
-  padding-top: 10px;
+@mixin more ($bottom, $top){
+  padding-bottom: $bottom;
+  padding-top: $top;
 }
-@mixin morep {
+@mixin morep ($padding){
   font-size: 12px;
-  margin-left: 220px;
-  margin-right: 220px;
-  padding:5px 20px 5px 20px;
+  margin-left: 210px;
+  margin-right: 210px;
+  padding:$padding;
+}
+@mixin informacion ($aling){
+  position: relative;
+  width: 300px;
+  font-size: 15px;
+  text-align: $aling;
+  float: left;
+  color: white;
+}
+@mixin h4s ($tops){
+  padding: $tops
+}
+@mixin ps ($bottom){
+  padding: $bottom;
 }
