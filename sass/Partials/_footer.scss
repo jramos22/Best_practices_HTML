@@ -1,6 +1,6 @@
 #footer{
   color: #797c82;
-  font-size: 13px;
+  @include fontsize(13px);
 }
 #footer p{
   padding-top: 29px;

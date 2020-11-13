@@ -1,21 +1,21 @@
 .contenedor{
   background-color: white;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.6%;
 }
 .contenedor h2{
-  padding-top: 60px;
+  padding-top: 4.8%;
 }
 .contenedor p{
-  padding-top: 20px;
-  padding-right: 80px;
-  padding-left: 80px;
+  padding-top: 1.6%;
+  padding-right: 6.4%;
+  padding-left: 6.4%;
 }
 .contenedor #more1 {
-  @include more($bottom:40px, $top:10px);
+  @include more($bottom:3.2%, $top:1%);
 }
 .contenedor #more2 {
-  @include more($bottom:40px, $top:10px);
+  @include more($bottom:3.2%, $top:1%);
 }
 .contenedor #more3 {
   @include more($bottom:71px, $top:36px);
@@ -30,22 +30,22 @@
   margin-top: -20px;
 }
 .contenedor #more1 p{
-  @include morep($padding:17px 50px 17px 50px);
+  @include morep($padding:3.36% 4% 3.36% 4%);
   background-color: #7bb84e;
 }
 .contenedor #more2 p{
-  @include morep($padding:17px 50px 17px 50px);
+  @include morep($padding:3.36% 4% 3.36% 4%);
   background-color: #f5ba1b;
 }
 .contenedor #more3 p{
-  @include morep($padding:17px 50px 17px 50px);
+  @include morep($padding:3.36% 4% 3.36% 4%);
   background-color: #3fabeb;
 }
 #more5 h2{
   background-color: #e02d74;
-  font-size: 17px;
-  margin-left: 200px;
-  margin-right: 200px;
+  @include fontsize(17px);
+  margin-left: 30.6%;
+  margin-right: 30.6%;
   padding:17px 0px 17px 0px;
 }
 #more1 a, #more2 a, #more3 a, #more5 h2 a{
@@ -58,23 +58,28 @@
 }
 .contenedor-img{
   float: left;
+  width: 50%;
 }
 #img1{
+  width: 4180%;
   position: absolute;
   top: 0px;
   left: 0px;
 }
 #img2{
+  width: 4180%;
   position: absolute;
   bottom: 0px;
   left: 0px;
 }
 #img3{
+  width: 4180%;
   position: absolute;
   top: 0px;
   left: 0px;
 }
 #img4{
+  width: 4180%;
   position: absolute;
   bottom: 0px;
   left: 0px;

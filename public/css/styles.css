@@ -21,23 +21,23 @@ a {
 .contenedor {
   background-color: white;
   text-align: center;
-  margin-bottom: 20px; }
+  margin-bottom: 1.6%; }
 
 .contenedor h2 {
-  padding-top: 60px; }
+  padding-top: 4.8%; }
 
 .contenedor p {
-  padding-top: 20px;
-  padding-right: 80px;
-  padding-left: 80px; }
+  padding-top: 1.6%;
+  padding-right: 6.4%;
+  padding-left: 6.4%; }
 
 .contenedor #more1 {
-  padding-bottom: 40px;
-  padding-top: 10px; }
+  padding-bottom: 3.2%;
+  padding-top: 1%; }
 
 .contenedor #more2 {
-  padding-bottom: 40px;
-  padding-top: 10px; }
+  padding-bottom: 3.2%;
+  padding-top: 1%; }
 
 .contenedor #more3 {
   padding-bottom: 71px;
@@ -56,30 +56,34 @@ a {
 
 .contenedor #more1 p {
   font-size: 12px;
-  margin-left: 210px;
-  margin-right: 210px;
-  padding: 17px 50px 17px 50px;
+  font-size: 0.75rem;
+  margin-left: 1.7%;
+  margin-right: 1.7%;
+  padding: 3.36% 4% 3.36% 4%;
   background-color: #7bb84e; }
 
 .contenedor #more2 p {
   font-size: 12px;
-  margin-left: 210px;
-  margin-right: 210px;
-  padding: 17px 50px 17px 50px;
+  font-size: 0.75rem;
+  margin-left: 1.7%;
+  margin-right: 1.7%;
+  padding: 3.36% 4% 3.36% 4%;
   background-color: #f5ba1b; }
 
 .contenedor #more3 p {
   font-size: 12px;
-  margin-left: 210px;
-  margin-right: 210px;
-  padding: 17px 50px 17px 50px;
+  font-size: 0.75rem;
+  margin-left: 1.7%;
+  margin-right: 1.7%;
+  padding: 3.36% 4% 3.36% 4%;
   background-color: #3fabeb; }
 
 #more5 h2 {
   background-color: #e02d74;
   font-size: 17px;
-  margin-left: 200px;
-  margin-right: 200px;
+  font-size: 1.0625rem;
+  margin-left: 30.6%;
+  margin-right: 30.6%;
   padding: 17px 0px 17px 0px; }
 
 #more1 a, #more2 a, #more3 a, #more5 h2 a {
@@ -91,24 +95,29 @@ a {
   color: white; }
 
 .contenedor-img {
-  float: left; }
+  float: left;
+  width: 50%; }
 
 #img1 {
+  width: 4180%;
   position: absolute;
   top: 0px;
   left: 0px; }
 
 #img2 {
+  width: 4180%;
   position: absolute;
   bottom: 0px;
   left: 0px; }
 
 #img3 {
+  width: 4180%;
   position: absolute;
   top: 0px;
   left: 0px; }
 
 #img4 {
+  width: 4180%;
   position: absolute;
   bottom: 0px;
   left: 0px; }
@@ -151,41 +160,46 @@ a {
 
 #informacion1 {
   position: relative;
-  width: 300px;
+  width: 2.4%;
   font-size: 15px;
+  font-size: 0.9375rem;
   text-align: right;
   float: left;
   color: white; }
 
 #informacion2 {
   position: relative;
-  width: 300px;
+  width: 2.4%;
   font-size: 15px;
+  font-size: 0.9375rem;
   text-align: left;
   float: left;
   color: white; }
 
 #informacion3 {
   position: relative;
-  width: 300px;
+  width: 2.4%;
   font-size: 15px;
+  font-size: 0.9375rem;
   text-align: right;
   float: left;
   color: white; }
 
 #informacion4 {
   position: relative;
-  width: 300px;
+  width: 2.4%;
   font-size: 15px;
+  font-size: 0.9375rem;
   text-align: left;
   float: left;
   color: white; }
 
 #galleria #more4 p {
   font-size: 12px;
-  margin-left: 210px;
-  margin-right: 210px;
-  padding: 17px 50px 17px 50px;
+  font-size: 0.75rem;
+  margin-left: 1.7%;
+  margin-right: 1.7%;
+  padding: 1.2% 4% 1.2% 4%;
   background-color: #f9f9f9; }
 
 #more4 a {
@@ -198,11 +212,11 @@ a {
 
 #galleria h2 {
   color: white;
-  padding-top: 68px; }
+  padding-top: 5.4%; }
 
 #galleria p {
   color: #828282;
-  padding: 37px 51px 27px 51px; }
+  padding: 2.9% 4% 2.1% 4%; }
 
 #galleimg {
   padding: 0px 51px 0px 51px;
@@ -210,7 +224,8 @@ a {
 
 #footer {
   color: #797c82;
-  font-size: 13px; }
+  font-size: 13px;
+  font-size: 0.8125rem; }
 
 #footer p {
   padding-top: 29px; }
@@ -232,10 +247,12 @@ a {
 #footer a {
   color: #797c82; }
 
+body {
+  background-color: #eaeced; }
+
 #wrapper {
   max-width: 800px;
-  margin: 0 auto;
-  background-color: #eaeced; }
+  margin: 0 auto; }
 
 #sub-wrapper {
   max-width: 600px;

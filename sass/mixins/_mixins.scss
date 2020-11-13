@@ -1,17 +1,25 @@
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+@mixin fontsize($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
 @mixin more ($bottom, $top){
   padding-bottom: $bottom;
   padding-top: $top;
 }
 @mixin morep ($padding){
-  font-size: 12px;
-  margin-left: 210px;
-  margin-right: 210px;
+  @include fontsize(12px);
+  margin-left: 1.7%;
+  margin-right: 1.7%;
   padding:$padding;
 }
 @mixin informacion ($aling){
   position: relative;
-  width: 300px;
-  font-size: 15px;
+  width: 2.4%;
+  @include fontsize(15px);
   text-align: $aling;
   float: left;
   color: white;
@@ -22,3 +30,4 @@
 @mixin ps ($bottom){
   padding: $bottom;
 }
+

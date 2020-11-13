@@ -4,10 +4,12 @@
 @import "./Partials/galleria";
 @import "./Partials/footer";
 
+body{
+  background-color: #eaeced;
+}
 #wrapper{
   max-width: 800px;
   margin: 0 auto;
-  background-color: #eaeced;
 }
 #sub-wrapper{
   max-width: 600px;
