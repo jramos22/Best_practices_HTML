@@ -1,12 +1,3 @@
-#wrapper {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #eaeced; }
-
-#sub-wrapper {
-  max-width: 600px;
-  margin: 0 auto; }
-
 #nav {
   padding-top: 10px;
   position: relative;
@@ -84,13 +75,6 @@ a {
   padding: 17px 50px 17px 50px;
   background-color: #3fabeb; }
 
-#galleria #more4 p {
-  font-size: 12px;
-  margin-left: 210px;
-  margin-right: 210px;
-  padding: 17px 50px 17px 50px;
-  background-color: #f9f9f9; }
-
 #more5 h2 {
   background-color: #e02d74;
   font-size: 17px;
@@ -102,48 +86,12 @@ a {
   text-decoration: none;
   color: white; }
 
-#more4 a {
-  text-decoration: none;
-  color: #292b33; }
-
 .contenedor .more a {
   text-decoration: none;
   color: white; }
 
 .contenedor-img {
   float: left; }
-
-#informacion1 {
-  position: relative;
-  width: 300px;
-  font-size: 15px;
-  text-align: right;
-  float: left;
-  color: white; }
-
-#informacion2 {
-  position: relative;
-  width: 300px;
-  font-size: 15px;
-  text-align: left;
-  float: left;
-  color: white; }
-
-#informacion3 {
-  position: relative;
-  width: 300px;
-  font-size: 15px;
-  text-align: right;
-  float: left;
-  color: white; }
-
-#informacion4 {
-  position: relative;
-  width: 300px;
-  font-size: 15px;
-  text-align: left;
-  float: left;
-  color: white; }
 
 #img1 {
   position: absolute;
@@ -201,6 +149,49 @@ a {
 #informacion4 p {
   padding: 0px 45px 255px 45px; }
 
+#informacion1 {
+  position: relative;
+  width: 300px;
+  font-size: 15px;
+  text-align: right;
+  float: left;
+  color: white; }
+
+#informacion2 {
+  position: relative;
+  width: 300px;
+  font-size: 15px;
+  text-align: left;
+  float: left;
+  color: white; }
+
+#informacion3 {
+  position: relative;
+  width: 300px;
+  font-size: 15px;
+  text-align: right;
+  float: left;
+  color: white; }
+
+#informacion4 {
+  position: relative;
+  width: 300px;
+  font-size: 15px;
+  text-align: left;
+  float: left;
+  color: white; }
+
+#galleria #more4 p {
+  font-size: 12px;
+  margin-left: 210px;
+  margin-right: 210px;
+  padding: 17px 50px 17px 50px;
+  background-color: #f9f9f9; }
+
+#more4 a {
+  text-decoration: none;
+  color: #292b33; }
+
 #galleria {
   background-color: #292b33;
   text-align: center; }
@@ -240,6 +231,15 @@ a {
 
 #footer a {
   color: #797c82; }
+
+#wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #eaeced; }
+
+#sub-wrapper {
+  max-width: 600px;
+  margin: 0 auto; }
 
 .clearfix::after {
   content: "";

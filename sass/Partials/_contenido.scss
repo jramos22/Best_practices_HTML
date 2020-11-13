@@ -1,0 +1,129 @@
+.contenedor{
+  background-color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contenedor h2{
+  padding-top: 60px;
+}
+.contenedor p{
+  padding-top: 20px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.contenedor #more1 {
+  @include more($bottom:40px, $top:10px);
+}
+.contenedor #more2 {
+  @include more($bottom:40px, $top:10px);
+}
+.contenedor #more3 {
+  @include more($bottom:71px, $top:36px);
+}
+#more4 {
+  @include more($bottom:71px, $top:36px);
+}
+#more5 {
+  @include more($bottom:71px, $top:36px);
+  background-color: white;
+  text-align: center;
+  margin-top: -20px;
+}
+.contenedor #more1 p{
+  @include morep($padding:17px 50px 17px 50px);
+  background-color: #7bb84e;
+}
+.contenedor #more2 p{
+  @include morep($padding:17px 50px 17px 50px);
+  background-color: #f5ba1b;
+}
+.contenedor #more3 p{
+  @include morep($padding:17px 50px 17px 50px);
+  background-color: #3fabeb;
+}
+#more5 h2{
+  background-color: #e02d74;
+  font-size: 17px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding:17px 0px 17px 0px;
+}
+#more1 a, #more2 a, #more3 a, #more5 h2 a{
+  text-decoration: none;
+  color: white;
+}
+.contenedor .more a{
+  text-decoration: none;
+  color: white;
+}
+.contenedor-img{
+  float: left;
+}
+#img1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#img2{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+#img3{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#img4{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.azul{
+  background-color: #0071bd;
+}
+.celeste{
+  background-color: #a3d3f3;
+}
+.celesteoscuro{
+  background-color: #75b3dd;
+}
+.negro{
+  background-color: #333c4d;
+}
+#informacion1 h4{
+  @include h4s($tops: 255px 45px 0px 45px);
+}
+#informacion1 p{
+  @include ps($bottom: 0px 45px 55px 45px);
+}
+#informacion2 h4{
+  @include h4s($tops: 55px 45px 0px 45px);
+}
+#informacion2 p{
+  @include ps($bottom:0px 45px 255px 45px);
+}
+#informacion3 h4{
+  @include h4s($tops: 255px 45px 0px 45px);
+}
+#informacion3 p{
+  @include ps($bottom:0px 45px 55px 45px);
+}
+#informacion4 h4{
+  @include h4s($tops:55px 45px 0px 45px);
+}
+#informacion4 p{
+  @include ps($bottom:0px 45px 255px 45px);
+}
+#informacion1{
+  @include informacion($aling:right);
+}
+#informacion2{
+  @include informacion($aling:left);
+}
+#informacion3{
+  @include informacion($aling:right);
+}
+#informacion4{
+  @include informacion($aling:left);
+}

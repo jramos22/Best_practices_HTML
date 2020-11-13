@@ -1,0 +1,25 @@
+#galleria #more4 p{
+  @include morep($padding:17px 50px 17px 50px);
+  background-color: #f9f9f9;
+}
+
+#more4 a{
+  text-decoration: none;
+  color: #292b33;
+}
+#galleria{
+  background-color:#292b33;
+  text-align: center;
+}
+#galleria h2{
+  color: white;
+  padding-top: 68px;
+}
+#galleria p{
+  color: #828282;
+  padding: 37px 51px 27px 51px;
+}
+#galleimg{
+  padding: 0px 51px 0px 51px;
+  color: red;
+}
