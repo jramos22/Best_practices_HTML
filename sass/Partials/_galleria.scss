@@ -4,26 +4,25 @@
 
 #galleria #more4 p{
   @include morep($padding:1.2% 4% 1.2% 4%);
-  background-color: #f9f9f9;
+  background-color: $galleria;
 }
 
 #more4 a{
   text-decoration: none;
-  color: #292b33;
+  color: $boton5;
 }
 #galleria{
-  background-color:#292b33;
+  background-color:$boton5;
   text-align: center;
 }
 #galleria h2{
-  color: white;
+  color: $general ;
   padding-top: 5.4%;
 }
 #galleria p{
-  color: #828282;
+  color: $galleriafon;
   padding: 2.9% 4% 2.1% 4%;
 }
 #galleimg{
   padding: 0px 51px 0px 51px;
-  color: red;
 }

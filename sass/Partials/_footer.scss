@@ -1,17 +1,17 @@
 #footer{
-  color: #797c82;
+  color: $footer;
   @include fontsize(13px);
 }
 #footer p{
-  padding-top: 29px;
+  padding-top: 4%;
 }
 #footer #reserved{
   float: left;
-  width: 480px;
+  width: 75%;
 }
 #footer #redes{
-  width: 100px;
-  padding-top: 40px;
+  width: 25%;
+  padding-top: 5%;
   float: left;
   position: relative;
 }
@@ -20,5 +20,8 @@
   left: 0px;
 }
 #footer a{
-  color: #797c82;
+  color:$footer;
+}
+#footer img{
+  width: 100%;
 }

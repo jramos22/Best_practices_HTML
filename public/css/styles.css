@@ -1,3 +1,19 @@
+body {
+  background-color: #eaeced; }
+
+#wrapper {
+  max-width: 800px;
+  margin: 0 auto; }
+
+#sub-wrapper {
+  max-width: 600px;
+  margin: 0 auto; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
 #nav {
   padding-top: 10px;
   position: relative;
@@ -68,7 +84,7 @@ a {
   padding-bottom: 12%;
   padding-top: 0.1%; }
 
-.contenedor #more2 {
+.contenedor2 #more2 {
   padding-bottom: 12%;
   padding-top: 1%; }
 
@@ -88,15 +104,13 @@ a {
   margin-top: -20px; }
 
 .contenedor #more1 p {
-  font-size: 12px;
   font-size: 0.75rem;
   margin-left: 35%;
   margin-right: 35%;
   padding: 2.3% 5% 2.3% 5%;
   background-color: #7bb84e; }
 
-.contenedor #more2 p {
-  font-size: 12px;
+.contenedor2 #more2 p {
   font-size: 0.75rem;
   margin-left: 35%;
   margin-right: 35%;
@@ -104,7 +118,6 @@ a {
   background-color: #f5ba1b; }
 
 .contenedor #more3 p {
-  font-size: 12px;
   font-size: 0.75rem;
   margin-left: 35%;
   margin-right: 35%;
@@ -113,7 +126,6 @@ a {
 
 #more5 h2 {
   background-color: #e02d74;
-  font-size: 17px;
   font-size: 1.0625rem;
   margin-left: 30.6%;
   margin-right: 30.6%;
@@ -194,7 +206,6 @@ a {
 #informacion1 {
   position: relative;
   width: 100%;
-  font-size: 15px;
   font-size: 0.9375rem;
   text-align: right;
   float: left;
@@ -203,7 +214,6 @@ a {
 #informacion2 {
   position: relative;
   width: 100%;
-  font-size: 15px;
   font-size: 0.9375rem;
   text-align: left;
   float: left;
@@ -212,7 +222,6 @@ a {
 #informacion3 {
   position: relative;
   width: 100%;
-  font-size: 15px;
   font-size: 0.9375rem;
   text-align: right;
   float: left;
@@ -221,7 +230,6 @@ a {
 #informacion4 {
   position: relative;
   width: 100%;
-  font-size: 15px;
   font-size: 0.9375rem;
   text-align: left;
   float: left;
@@ -231,7 +239,6 @@ a {
   margin-bottom: 6.6%; }
 
 #galleria #more4 p {
-  font-size: 12px;
   font-size: 0.75rem;
   margin-left: 35%;
   margin-right: 35%;
@@ -255,24 +262,22 @@ a {
   padding: 2.9% 4% 2.1% 4%; }
 
 #galleimg {
-  padding: 0px 51px 0px 51px;
-  color: red; }
+  padding: 0px 51px 0px 51px; }
 
 #footer {
   color: #797c82;
-  font-size: 13px;
   font-size: 0.8125rem; }
 
 #footer p {
-  padding-top: 29px; }
+  padding-top: 4%; }
 
 #footer #reserved {
   float: left;
-  width: 480px; }
+  width: 75%; }
 
 #footer #redes {
-  width: 100px;
-  padding-top: 40px;
+  width: 25%;
+  padding-top: 5%;
   float: left;
   position: relative; }
 
@@ -283,18 +288,16 @@ a {
 #footer a {
   color: #797c82; }
 
-body {
-  background-color: #eaeced; }
+#footer img {
+  width: 100%; }
 
-#wrapper {
-  max-width: 800px;
-  margin: 0 auto; }
-
-#sub-wrapper {
-  max-width: 600px;
-  margin: 0 auto; }
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table; }
+@media (max-width: 767px) {
+  .contenedor .estructure-1 img {
+    width: 100%; }
+  .contenedor2 .estructure-1 img {
+    width: 100%; }
+  .contenedor-img {
+    float: left;
+    width: 100%; }
+  #galleria img {
+    width: 100%; } }

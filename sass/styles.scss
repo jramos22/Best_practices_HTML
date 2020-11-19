@@ -1,23 +1,11 @@
+@import "./colores/colores";
+@import "./Partials/general";
 @import "./mixins/mixins";
 @import "./Partials/nav";
 @import "./Partials/contenido";
 @import "./Partials/galleria";
 @import "./Partials/footer";
+@import "./Partials/movil";
 
-body{
-  background-color: #eaeced;
-}
-#wrapper{
-  max-width: 800px;
-  margin: 0 auto;
-}
-#sub-wrapper{
-  max-width: 600px;
-  margin: 0 auto;
-}
-.clearfix::after{
-  content: "";
-  clear: both;
-  display: table;
-}
+
 

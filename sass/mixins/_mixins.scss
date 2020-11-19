@@ -3,13 +3,12 @@
   @return #{$remSize}rem;
 }
 @mixin fontsize($size) {
-  font-size: $size;
   font-size: calculateRem($size);
 }
 
 @mixin contenedor($margin){
   width: 100%;
-  background-color: white;
+  background-color: $general;
   text-align: center;
   margin-bottom: $margin;
 }
@@ -33,7 +32,7 @@
   @include fontsize(15px);
   text-align: $aling;
   float: left;
-  color: white;
+  color:$general;
 }
 @mixin h4s ($tops){
   padding: $tops
