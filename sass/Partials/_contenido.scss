@@ -1,4 +1,17 @@
 .contenedor{
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 6.6%;
+}
+.contenedor2{
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 1.6%;
+}
+.contenedor3{
+  width: 100%;
   background-color: white;
   text-align: center;
   margin-bottom: 1.6%;
@@ -6,39 +19,59 @@
 .contenedor h2{
   padding-top: 4.8%;
 }
+.contenedor2 h2{
+  padding-top: 4.8%;
+}
+.contenedor3 h2{
+  padding-top: 4.8%;
+}
 .contenedor p{
+  padding-top: 1.6%;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 3.5%;
+}
+.contenedor2 p{
+  padding-top: 1.6%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.contenedor3 p{
   padding-top: 1.6%;
   padding-right: 6.4%;
   padding-left: 6.4%;
 }
+.contenedor .estructure-2 p{
+  padding: 1.6% 13% 0% 13%;
+}
 .contenedor #more1 {
-  @include more($bottom:3.2%, $top:1%);
+  @include more($bottom:12%, $top:0.1%);
 }
 .contenedor #more2 {
-  @include more($bottom:3.2%, $top:1%);
+  @include more($bottom:12%, $top:1%);
 }
 .contenedor #more3 {
-  @include more($bottom:71px, $top:36px);
+  @include more($bottom:12%, $top:4%);
 }
 #more4 {
-  @include more($bottom:71px, $top:36px);
+  @include more($bottom:12%, $top:3%);
 }
 #more5 {
-  @include more($bottom:71px, $top:36px);
+  @include more($bottom:12%, $top:4%);
   background-color: white;
   text-align: center;
   margin-top: -20px;
 }
 .contenedor #more1 p{
-  @include morep($padding:3.36% 4% 3.36% 4%);
+  @include morep($padding:2.3% 5% 2.3% 5%);
   background-color: #7bb84e;
 }
 .contenedor #more2 p{
-  @include morep($padding:3.36% 4% 3.36% 4%);
+  @include morep($padding:2.3% 5% 2.3% 5%);
   background-color: #f5ba1b;
 }
 .contenedor #more3 p{
-  @include morep($padding:3.36% 4% 3.36% 4%);
+  @include morep($padding:2.3% 5% 2.3% 5%);
   background-color: #3fabeb;
 }
 #more5 h2{
@@ -46,7 +79,7 @@
   @include fontsize(17px);
   margin-left: 30.6%;
   margin-right: 30.6%;
-  padding:17px 0px 17px 0px;
+  padding:2.3% 5% 2.3% 5%;
 }
 #more1 a, #more2 a, #more3 a, #more5 h2 a{
   text-decoration: none;
@@ -61,25 +94,25 @@
   width: 50%;
 }
 #img1{
-  width: 4180%;
+  width: 100%;
   position: absolute;
   top: 0px;
   left: 0px;
 }
 #img2{
-  width: 4180%;
+  width: 100%;
   position: absolute;
   bottom: 0px;
   left: 0px;
 }
 #img3{
-  width: 4180%;
+  width: 100%;
   position: absolute;
   top: 0px;
   left: 0px;
 }
 #img4{
-  width: 4180%;
+  width: 100%;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -97,28 +130,28 @@
   background-color: #333c4d;
 }
 #informacion1 h4{
-  @include h4s($tops: 255px 45px 0px 45px);
+  @include h4s($tops: 80% 11.2% 0% 34.60%);
 }
 #informacion1 p{
-  @include ps($bottom: 0px 45px 55px 45px);
+  @include ps($bottom: 0% 11.2% 11.0% 24%);
 }
 #informacion2 h4{
-  @include h4s($tops: 55px 45px 0px 45px);
+  @include h4s($tops: 11% 34.60% 0% 11.2%);
 }
 #informacion2 p{
-  @include ps($bottom:0px 45px 255px 45px);
+  @include ps($bottom:0% 24% 80% 11.2%);
 }
 #informacion3 h4{
-  @include h4s($tops: 255px 45px 0px 45px);
+  @include h4s($tops: 80% 11.2% 0% 34.60%);
 }
 #informacion3 p{
-  @include ps($bottom:0px 45px 55px 45px);
+  @include ps($bottom:0% 11.2% 11.0% 24%);
 }
 #informacion4 h4{
-  @include h4s($tops:55px 45px 0px 45px);
+  @include h4s($tops: 11% 34.60% 0% 11.2%);
 }
 #informacion4 p{
-  @include ps($bottom:0px 45px 255px 45px);
+  @include ps($bottom:0% 24% 80% 11.2%);
 }
 #informacion1{
   @include informacion($aling:right);

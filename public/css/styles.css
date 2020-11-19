@@ -19,6 +19,19 @@ a {
   color: #3fabeb; }
 
 .contenedor {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 6.6%; }
+
+.contenedor2 {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 1.6%; }
+
+.contenedor3 {
+  width: 100%;
   background-color: white;
   text-align: center;
   margin-bottom: 1.6%; }
@@ -26,30 +39,50 @@ a {
 .contenedor h2 {
   padding-top: 4.8%; }
 
+.contenedor2 h2 {
+  padding-top: 4.8%; }
+
+.contenedor3 h2 {
+  padding-top: 4.8%; }
+
 .contenedor p {
+  padding-top: 1.6%;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 3.5%; }
+
+.contenedor2 p {
+  padding-top: 1.6%;
+  padding-right: 10%;
+  padding-left: 10%; }
+
+.contenedor3 p {
   padding-top: 1.6%;
   padding-right: 6.4%;
   padding-left: 6.4%; }
 
+.contenedor .estructure-2 p {
+  padding: 1.6% 13% 0% 13%; }
+
 .contenedor #more1 {
-  padding-bottom: 3.2%;
-  padding-top: 1%; }
+  padding-bottom: 12%;
+  padding-top: 0.1%; }
 
 .contenedor #more2 {
-  padding-bottom: 3.2%;
+  padding-bottom: 12%;
   padding-top: 1%; }
 
 .contenedor #more3 {
-  padding-bottom: 71px;
-  padding-top: 36px; }
+  padding-bottom: 12%;
+  padding-top: 4%; }
 
 #more4 {
-  padding-bottom: 71px;
-  padding-top: 36px; }
+  padding-bottom: 12%;
+  padding-top: 3%; }
 
 #more5 {
-  padding-bottom: 71px;
-  padding-top: 36px;
+  padding-bottom: 12%;
+  padding-top: 4%;
   background-color: white;
   text-align: center;
   margin-top: -20px; }
@@ -57,25 +90,25 @@ a {
 .contenedor #more1 p {
   font-size: 12px;
   font-size: 0.75rem;
-  margin-left: 1.7%;
-  margin-right: 1.7%;
-  padding: 3.36% 4% 3.36% 4%;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 2.3% 5% 2.3% 5%;
   background-color: #7bb84e; }
 
 .contenedor #more2 p {
   font-size: 12px;
   font-size: 0.75rem;
-  margin-left: 1.7%;
-  margin-right: 1.7%;
-  padding: 3.36% 4% 3.36% 4%;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 2.3% 5% 2.3% 5%;
   background-color: #f5ba1b; }
 
 .contenedor #more3 p {
   font-size: 12px;
   font-size: 0.75rem;
-  margin-left: 1.7%;
-  margin-right: 1.7%;
-  padding: 3.36% 4% 3.36% 4%;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 2.3% 5% 2.3% 5%;
   background-color: #3fabeb; }
 
 #more5 h2 {
@@ -84,7 +117,7 @@ a {
   font-size: 1.0625rem;
   margin-left: 30.6%;
   margin-right: 30.6%;
-  padding: 17px 0px 17px 0px; }
+  padding: 2.3% 5% 2.3% 5%; }
 
 #more1 a, #more2 a, #more3 a, #more5 h2 a {
   text-decoration: none;
@@ -99,25 +132,25 @@ a {
   width: 50%; }
 
 #img1 {
-  width: 4180%;
+  width: 100%;
   position: absolute;
   top: 0px;
   left: 0px; }
 
 #img2 {
-  width: 4180%;
+  width: 100%;
   position: absolute;
   bottom: 0px;
   left: 0px; }
 
 #img3 {
-  width: 4180%;
+  width: 100%;
   position: absolute;
   top: 0px;
   left: 0px; }
 
 #img4 {
-  width: 4180%;
+  width: 100%;
   position: absolute;
   bottom: 0px;
   left: 0px; }
@@ -135,32 +168,32 @@ a {
   background-color: #333c4d; }
 
 #informacion1 h4 {
-  padding: 255px 45px 0px 45px; }
+  padding: 80% 11.2% 0% 34.6%; }
 
 #informacion1 p {
-  padding: 0px 45px 55px 45px; }
+  padding: 0% 11.2% 11% 24%; }
 
 #informacion2 h4 {
-  padding: 55px 45px 0px 45px; }
+  padding: 11% 34.6% 0% 11.2%; }
 
 #informacion2 p {
-  padding: 0px 45px 255px 45px; }
+  padding: 0% 24% 80% 11.2%; }
 
 #informacion3 h4 {
-  padding: 255px 45px 0px 45px; }
+  padding: 80% 11.2% 0% 34.6%; }
 
 #informacion3 p {
-  padding: 0px 45px 55px 45px; }
+  padding: 0% 11.2% 11% 24%; }
 
 #informacion4 h4 {
-  padding: 55px 45px 0px 45px; }
+  padding: 11% 34.6% 0% 11.2%; }
 
 #informacion4 p {
-  padding: 0px 45px 255px 45px; }
+  padding: 0% 24% 80% 11.2%; }
 
 #informacion1 {
   position: relative;
-  width: 2.4%;
+  width: 100%;
   font-size: 15px;
   font-size: 0.9375rem;
   text-align: right;
@@ -169,7 +202,7 @@ a {
 
 #informacion2 {
   position: relative;
-  width: 2.4%;
+  width: 100%;
   font-size: 15px;
   font-size: 0.9375rem;
   text-align: left;
@@ -178,7 +211,7 @@ a {
 
 #informacion3 {
   position: relative;
-  width: 2.4%;
+  width: 100%;
   font-size: 15px;
   font-size: 0.9375rem;
   text-align: right;
@@ -187,18 +220,21 @@ a {
 
 #informacion4 {
   position: relative;
-  width: 2.4%;
+  width: 100%;
   font-size: 15px;
   font-size: 0.9375rem;
   text-align: left;
   float: left;
   color: white; }
 
+#galleria {
+  margin-bottom: 6.6%; }
+
 #galleria #more4 p {
   font-size: 12px;
   font-size: 0.75rem;
-  margin-left: 1.7%;
-  margin-right: 1.7%;
+  margin-left: 35%;
+  margin-right: 35%;
   padding: 1.2% 4% 1.2% 4%;
   background-color: #f9f9f9; }
 
