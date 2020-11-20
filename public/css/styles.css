@@ -295,6 +295,12 @@ a {
   .contenedor .estructure-1 img {
     width: 100%; }
   .contenedor2 .estructure-1 img {
+    width: 100%; } }
+
+@media (max-width: 463px) {
+  .contenedor .estructure-1 img {
+    width: 100%; }
+  .contenedor2 .estructure-1 img {
     width: 100%; }
   .contenedor-img {
     float: left;
